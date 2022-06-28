@@ -21,4 +21,4 @@ systemLoadEP2=col2.number_input('Enter System Load EP2')
 
 if st.button('Predict Price'):
     data=[[day,month,forecastWindProduction,systemLoadEA,smpea,temperature,windspeed,co2intensity,actualWindProduction,systemLoadEP2]]
-    st.success(model.predict(data)[0]+'$')
+    st.success(str(model.predict(data)[0])+'$')
