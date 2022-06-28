@@ -32,6 +32,7 @@ Electricity Price Prediction is a project on Machine Learning which predicts Ele
 3. pip install sklearn
 4. pip install matplotlib
 5. pip install seaborn
+6. pip install streamlit
 
 # Process
 1. Install Softwares
